@@ -1,5 +1,5 @@
 {
-  "ameliaBaseUrl": "https://localhost",
-  "domainCode": "global",
+  "ameliaBaseUrl": "https://rnd-v5.dev.amelia.com",
+  "domainCode": "sagar",
   "uiBundle": "guardiantest"
 }
