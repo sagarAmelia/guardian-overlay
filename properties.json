@@ -1,5 +1,5 @@
 {
-  "ameliaBaseUrl": "https://guardian.dev.amelia.com",
-  "domainCode": "voiceservice",
+  "ameliaBaseUrl": "https://localhost",
+  "domainCode": "global",
   "uiBundle": "guardiantest"
 }
