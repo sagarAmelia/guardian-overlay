@@ -183,6 +183,14 @@
 
 
     <script>
+	function closeConversation() {
+        	console.log("close conversation");
+        	sendMessageNew({ actionType: "endConversation" ,"actionData": true});
+      	}
+
+      	function resetConversation() {
+        	sendMessageNew({ actionType: "resetConversation" ,"actionData": true});
+      	}
         function openChatOverlay(receiverElem, imgElemOpen, imgElemClose) {
             document.getElementById('receiver').classList.add("open");
             document.getElementById('receiver').classList.remove("close");
